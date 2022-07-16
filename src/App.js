@@ -1,10 +1,12 @@
 import './App.css';
-import GithubSearch from './component/GithubSearch';
+// import GithubSearch from './component/GithubSearch';
+import Todo from './Todo/Todo';
 
 function App() {
   return (
     <div className="App">
-       <GithubSearch/>
+       {/* <GithubSearch/> */}
+       <Todo/>
     </div>
   );
 }
